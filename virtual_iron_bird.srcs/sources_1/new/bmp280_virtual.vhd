@@ -87,29 +87,6 @@ begin
                Started  when s_state = Starting else
                Ended    when s_state = Ending;
     s_rst <= '1' when s_state = Starting or s_state = Ending else '0';
---    -- Start & stop detection
---    process (io_SDA, s_state_ack) is
---    begin
---        if falling_edge(io_SDA) then
---            if i_SCL = '1' then
---                s_state <= Starting;
---            end if;
---        end if;
-        
---        if rising_edge(io_SDA)  then
---            if i_SCL = '1' and s_state = Started then
---                s_state <= Ending;
---            end if;
---        end if;
-        
---        if s_state_ack = '1' then
---            if s_state = Starting then
---                s_state <= Started;
---            elsif s_state = Ending then
---                s_state <= Ended;
---            end if;
---        end if;
---    end process;
     
     -- Packet receiver
     process (i_SCL, s_rst) is
