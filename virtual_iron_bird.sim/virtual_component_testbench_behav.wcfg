@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="virtual_component_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="virtual_component_testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="67.001 ns"></ZoomEndTime>
+      <Cursor1Time time="7.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="136"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/virtual_component_testbench/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/locked_clock" type="logic">
+      <obj_property name="ElementShortName">locked_clock</obj_property>
+      <obj_property name="ObjectShortName">locked_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_is_starting" type="logic">
+      <obj_property name="ElementShortName">s_is_starting</obj_property>
+      <obj_property name="ObjectShortName">s_is_starting</obj_property>
+   </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_is_ending" type="logic">
+      <obj_property name="ElementShortName">s_is_ending</obj_property>
+      <obj_property name="ObjectShortName">s_is_ending</obj_property>
+   </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_state_ack" type="logic">
+      <obj_property name="ElementShortName">s_state_ack</obj_property>
+      <obj_property name="ObjectShortName">s_state_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_state" type="other">
+      <obj_property name="ElementShortName">s_state</obj_property>
+      <obj_property name="ObjectShortName">s_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_control_state" type="other">
+      <obj_property name="ElementShortName">s_control_state</obj_property>
+      <obj_property name="ObjectShortName">s_control_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_command" type="other">
+      <obj_property name="ElementShortName">s_command</obj_property>
+      <obj_property name="ObjectShortName">s_command</obj_property>
+   </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_command_addr" type="array">
+      <obj_property name="ElementShortName">s_command_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_command_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_has_read_command_addr" type="logic">
+      <obj_property name="ElementShortName">s_has_read_command_addr</obj_property>
+      <obj_property name="ObjectShortName">s_has_read_command_addr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/I2C_ADRR" type="array">
+      <obj_property name="ElementShortName">I2C_ADRR[6:0]</obj_property>
+      <obj_property name="ObjectShortName">I2C_ADRR[6:0]</obj_property>
+   </wvobject>
+</wave_config>
