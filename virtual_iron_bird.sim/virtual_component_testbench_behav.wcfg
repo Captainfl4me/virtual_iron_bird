@@ -10,15 +10,19 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="5.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="67.001 ns"></ZoomEndTime>
-      <Cursor1Time time="7.500 ns"></Cursor1Time>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="5,837.037 ns"></ZoomEndTime>
+      <Cursor1Time time="400.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="136"></NameColumnWidth>
-      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+      <NameColumnWidth column_width="181"></NameColumnWidth>
+      <ValueColumnWidth column_width="137"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="12" />
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/virtual_component_testbench/locked_clock" type="logic">
+      <obj_property name="ElementShortName">locked_clock</obj_property>
+      <obj_property name="ObjectShortName">locked_clock</obj_property>
+   </wvobject>
    <wvobject fp_name="/virtual_component_testbench/sda" type="logic">
       <obj_property name="ElementShortName">sda</obj_property>
       <obj_property name="ObjectShortName">sda</obj_property>
@@ -27,9 +31,9 @@
       <obj_property name="ElementShortName">scl</obj_property>
       <obj_property name="ObjectShortName">scl</obj_property>
    </wvobject>
-   <wvobject fp_name="/virtual_component_testbench/locked_clock" type="logic">
-      <obj_property name="ElementShortName">locked_clock</obj_property>
-      <obj_property name="ObjectShortName">locked_clock</obj_property>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_state" type="other">
+      <obj_property name="ElementShortName">s_state</obj_property>
+      <obj_property name="ObjectShortName">s_state</obj_property>
    </wvobject>
    <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_is_starting" type="logic">
       <obj_property name="ElementShortName">s_is_starting</obj_property>
@@ -39,32 +43,56 @@
       <obj_property name="ElementShortName">s_is_ending</obj_property>
       <obj_property name="ObjectShortName">s_is_ending</obj_property>
    </wvobject>
-   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_state_ack" type="logic">
-      <obj_property name="ElementShortName">s_state_ack</obj_property>
-      <obj_property name="ObjectShortName">s_state_ack</obj_property>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_is_ack" type="logic">
+      <obj_property name="ElementShortName">s_is_ack</obj_property>
+      <obj_property name="ObjectShortName">s_is_ack</obj_property>
    </wvobject>
-   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_state" type="other">
-      <obj_property name="ElementShortName">s_state</obj_property>
-      <obj_property name="ObjectShortName">s_state</obj_property>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_is_last_ack_valid" type="logic">
+      <obj_property name="ElementShortName">s_is_last_ack_valid</obj_property>
+      <obj_property name="ObjectShortName">s_is_last_ack_valid</obj_property>
    </wvobject>
-   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_control_state" type="other">
-      <obj_property name="ElementShortName">s_control_state</obj_property>
-      <obj_property name="ObjectShortName">s_control_state</obj_property>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_bit_counter_next" type="other">
+      <obj_property name="ElementShortName">s_bit_counter_next</obj_property>
+      <obj_property name="ObjectShortName">s_bit_counter_next</obj_property>
    </wvobject>
-   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_command" type="other">
-      <obj_property name="ElementShortName">s_command</obj_property>
-      <obj_property name="ObjectShortName">s_command</obj_property>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_bit_counter" type="other">
+      <obj_property name="ElementShortName">s_bit_counter</obj_property>
+      <obj_property name="ObjectShortName">s_bit_counter</obj_property>
    </wvobject>
-   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_command_addr" type="array">
-      <obj_property name="ElementShortName">s_command_addr[7:0]</obj_property>
-      <obj_property name="ObjectShortName">s_command_addr[7:0]</obj_property>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/current_read_byte" type="array">
+      <obj_property name="ElementShortName">current_read_byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">current_read_byte[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="Reversed">false</obj_property>
+   </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_is_reading_addr" type="logic">
+      <obj_property name="ElementShortName">s_is_reading_addr</obj_property>
+      <obj_property name="ObjectShortName">s_is_reading_addr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_is_writing_to_bus" type="logic">
+      <obj_property name="ElementShortName">s_is_writing_to_bus</obj_property>
+      <obj_property name="ObjectShortName">s_is_writing_to_bus</obj_property>
    </wvobject>
    <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_has_read_command_addr" type="logic">
       <obj_property name="ElementShortName">s_has_read_command_addr</obj_property>
       <obj_property name="ObjectShortName">s_has_read_command_addr</obj_property>
    </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_command_addr" type="array">
+      <obj_property name="ElementShortName">s_command_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_command_addr[7:0]</obj_property>
+      <obj_property name="Reversed">false</obj_property>
+   </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/current_write_byte" type="array">
+      <obj_property name="ElementShortName">current_write_byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">current_write_byte[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/virtual_component_testbench/bmp_inst/s_is_me" type="logic">
+      <obj_property name="ElementShortName">s_is_me</obj_property>
+      <obj_property name="ObjectShortName">s_is_me</obj_property>
+   </wvobject>
    <wvobject fp_name="/virtual_component_testbench/bmp_inst/I2C_ADRR" type="array">
       <obj_property name="ElementShortName">I2C_ADRR[6:0]</obj_property>
       <obj_property name="ObjectShortName">I2C_ADRR[6:0]</obj_property>
+      <obj_property name="Reversed">false</obj_property>
    </wvobject>
 </wave_config>
